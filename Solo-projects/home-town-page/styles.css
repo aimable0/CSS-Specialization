@@ -1,0 +1,181 @@
+@font-face {
+    font-family: "hot fire";
+    src: url("hot-fire/HotFire-Regular.ttf");
+}
+/* signature font */
+@font-face {
+    font-family: "signature";
+    src: url("namora-dayana-demo/NamoraDayanaDemoRegular.ttf");
+}
+@font-face {
+    font-family: 'semi-vanilla';
+    src: url("vanillachilldemo/VanillaChillDemoRegular.ttf");
+}
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'roboto';
+}
+.visit-card {
+    width: 800px;
+    border: 4px solid rgb(255, 255, 255);
+    margin: 50px auto;
+    border-radius: 20px;
+}
+
+.hero {
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/57b88db03e00be38aec142b0/1526928305567-Y0MTKDAAGPS2IP0YXMSO/03_What_To_Do_In_Gisenyi_in_Lake_Kivu_Rwanda_Visiting_Gisenyi_HandZaround.jpg?format=1500w");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cta-btns button{
+    text-align: center;
+    padding: 10px 20px;
+    font-family: 'outfit';
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.cta-btns #btn-1 {
+    background-color: rgba(60, 179, 190, 0.705);
+    color: white;
+}
+
+.cta-btns #btn-2 {
+    color: rgba(60, 179, 190, 0.891);
+    background-color: transparent;
+    border: 2px solid ;
+    padding: 9px 25px;
+    text-shadow: 0px 0px 1px black;
+}
+.hero h1 {
+    margin-top: 100px;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    font-family: "hot fire";
+}
+.hero p {
+    color: white;
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: 'semi-vanilla';
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.41);
+}
+.activities {
+    padding: 10px 0px 50px;
+}
+.header-underline {
+    border-bottom: 3px solid rgba(60, 179, 190, 0.891);
+    margin: 15px auto 50px auto;
+    width: 60px;
+}
+.underline {
+    border-bottom: 3px solid rgba(60, 179, 190, 0.891);
+    width: 500px;
+    margin: 30px auto 10px;
+}
+.activities-layout {
+    display: flex;
+    justify-content: center;
+}
+.activities h3 {
+    font-family: 'outfit';
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(44, 44, 44);
+    font-size: 24px;
+
+}
+.activity img {
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+}
+.activity h4 {
+    margin: 10px auto;
+    font-size: 16px;
+    font-family: 'outfit';
+    font-weight: 500;
+}
+.activity {
+    text-align: center;
+    width: 30%;
+    margin-right: 20px;
+}
+.activity p {
+    font-family: 'outfit';
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+span {
+    color: rgba(60, 179, 190, 0.891);
+}
+/* guide */
+.guide {
+    background-color: white;
+    display: flex;
+    margin: 100px auto;
+    text-align: center;
+    font-family: 'outfit';
+    justify-content: center;
+}
+.guide-details h3 {
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.guide-details h4 {
+    margin-top: 20px;
+    color: rgb(64, 64, 64);
+    letter-spacing: 0.5px;
+}
+.guide-details p {
+    font-family: 'poppins';
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(60, 60, 60);
+}
+.guide div img {
+    width: 150px;
+    height: 140px;
+    border-radius: 100%;
+}
+.guide-details {
+    margin-left: 30px;
+}
+/* signature */
+#signature {
+    font-family: 'signature';
+    font-size: 12px;
+    text-align: right;
+}
+
+/* styels */
+.shadow-grey-circle {
+    background-color: rgb(240, 252, 255);
+    /* background-color: rgb(198, 213, 212); */
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    position: relative;
+    top: 60px;
+    left: 50px;
+}
+
+.grey-circle {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(118, 179, 184, 0.602);
+    border-radius: 100%;
+}

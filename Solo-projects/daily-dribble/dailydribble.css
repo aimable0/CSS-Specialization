@@ -1,0 +1,72 @@
+/* all */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #121212;
+    font-family: 'roboto';
+    padding-top: 40px;
+}
+/* end all */
+
+/* main */
+#newsletter-card {
+    border: 3px solid #121212;
+    margin: 10px auto 0px auto;
+    width: 500px;
+    text-align: center;
+}
+h1 {
+    font-family: 'orbitron';
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#newsletter-img {
+    width: 380px;
+    border: 3px solid #121212;
+}
+
+p {
+    font-style: italic;
+    font-weight: 500;
+    width: 380px;
+    margin: 10px auto 30px;
+}
+
+.newsletter-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newsletter-btns button{
+    font-family: inherit;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: white;
+    border: 3px solid #121212;
+    margin-bottom: 10px;
+}
+
+#email-btn {
+    padding: 10px 40px;
+    color: grey;
+}
+
+#join-btn {
+    padding: 10px 80px;
+    background-color: #121212;
+    color: white;
+}
+/* end main */
+
+/* footer */
+#footer {
+    margin: 10px auto 40px;
+}
+#footer a {
+    color: #121212;
+}
+/* end footer */

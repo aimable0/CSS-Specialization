@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'open sans';
+    color: #020202;
+}
+button {
+    font-family: inherit;
+}
+
+.hero {
+    position: relative;
+    background-image: url("https://www.spoclearn.com/blog/wp-content/uploads/2024/06/complete-guide-to-microsoft-office-for-beginners-1024x639.jpeg");
+    margin: 50px auto;
+    background-repeat: no-repeat;
+    border: 2px solid rgb(18, 18, 18);
+    height: 500px;
+    width: 900px;
+}
+.gradient {
+    width: 90%;
+    height: 100%;
+    background: linear-gradient(to right, rgb(255, 255, 255) 20%, transparent);
+    position: absolute;
+}
+.hero-content{
+    position: relative;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.hero h1 {
+    font-weight:bolder;
+    font-size: 48px;
+    line-height: 50px;
+    margin-bottom: 25px;
+}
+.hero p {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+span {
+    border-bottom: 5px solid #0ea5e9;
+}
+.hero button {
+    padding: 15px 25px;
+    border: 0;
+    background-color: #0ea5e9;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
