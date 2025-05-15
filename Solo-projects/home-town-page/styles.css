@@ -39,6 +39,8 @@ body {
     text-align: center;
     padding: 10px 20px;
     font-family: 'outfit';
+    font-family: 'semi-vanilla';
+    letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: 600;
     border: 0;
@@ -148,7 +150,7 @@ span {
 }
 .guide div img {
     width: 150px;
-    height: 140px;
+    height: 150px;
     border-radius: 100%;
 }
 .guide-details {
