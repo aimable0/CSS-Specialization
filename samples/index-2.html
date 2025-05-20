@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="flex.css">
+    <style>
+        .container {
+            font-size: 16px;
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 10px auto;
+            display: grid;
+
+            /* grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 50px 50px;
+            grid-gap: 1px; */
+
+
+            /* grid-template-columns: auto auto auto;
+            grid-template-rows: 50px 50px; */
+
+            /* grid-template-columns: 1fr 2fr 1fr; */
+            /* grid-template-rows: repeat(3, 300px); */
+
+            /* grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 50px); */
+
+            grid-template: repeat(3, 50px) / repeat(2, 1fr);
+        }
+
+        .container div:nth-child(1) {
+            background-color: antiquewhite;
+        }
+        .container div:nth-child(2) {
+            background-color: aqua;
+        }
+        .container div:nth-child(3) {
+            background-color: aquamarine;
+        }
+        .container div:nth-child(4) {
+            background-color: beige;
+        }
+        .container div:nth-child(5) {
+            background-color: rgb(205, 233, 255);
+        }
+        .container div:nth-child(6) {
+            background-color: wheat;
+        }
+
+        .container div {
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+</body>
+</html>

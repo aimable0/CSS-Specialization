@@ -1,0 +1,50 @@
+html, body {
+    background-color: antiquewhite;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+}
+
+
+.container {
+    height: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 60px auto 60px;
+    grid-gap: 3px;
+    grid-template-areas:
+    "m h h h h h"
+    "m c c c c c"
+    "m f f f f f";
+}
+
+.container div {
+    padding: 10px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    background-color: rgb(78, 119, 155);
+    grid-area: h;
+}
+.menu {
+    background-color: rgb(41, 155, 127);
+    grid-area: m;
+
+}
+.content {
+    background-color: rgba(211, 81, 59, 0.877);
+    grid-area: c;
+}
+.footer {
+    background-color: rgb(156, 37, 156);
+    grid-area: f;
+
+}
