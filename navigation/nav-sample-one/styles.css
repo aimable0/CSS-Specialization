@@ -1,0 +1,93 @@
+/* varible declaration */
+
+:root {
+    --grey: #707070;
+    --light-blue: #1792D2;
+    --deep-blue: #143774;
+    --white-grey: #f8f8f8;
+}
+
+body {
+    font-size: 1rem;
+    margin: 0;
+    font-family: 'ubuntu', sans-serif;
+}
+
+
+/* ===================
+Typography
+====================*/
+
+h1 {
+    margin: 0;
+    font-family: 'Lora';
+    font-size: 2rem;
+    color: var(--deep-blue);
+    font-weight: 400;
+    text-align: center;
+}
+
+.logo-sub-title {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700; /* same as bold*/
+    font-size: .75rem;
+    letter-spacing: 2px;
+    color: var(--light-blue);
+    text-align: center;
+}
+
+
+/* ==========
+Layout
+============ */
+
+
+header {
+    background-color: var(--white-grey);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em 0;
+
+}
+
+/* navigation */
+
+nav {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--grey);
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding: .25em 0;
+}
+
+nav a:hover,
+nav a:focus {
+    color: var(--light-blue);
+}
+
+nav ul {
+    padding: 0;
+    text-transform: uppercase;
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 1em;
+}
+
+.current-page {
+    border-bottom: 1.5px solid var(--grey);
+}
+
+.current-page:hover {
+    color: var(--grey);
+}
+
