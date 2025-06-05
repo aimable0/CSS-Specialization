@@ -1,0 +1,62 @@
+body {
+    font-family: 'Source Sans Pro';
+    margin: 0;
+    font-size: 1rem;
+    color: #404040;
+      text-align: center;
+}
+
+/* typography */
+.hero-title {
+    font-weight: 300;
+    font-size: 2.25rem;
+}
+
+.hero-title span {
+    font-weight: bolder; /* same as strong*/
+    font-weight: 900;
+}
+
+.mini-title {
+    font-size: 1.3rem;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.cfa-h3 {
+    font-weight: bold;
+    color: #f18119;
+    margin-top: 0;
+}
+
+.disclaimer-text {
+    font-size: smaller;
+    font-weight: 500;
+}
+
+
+/* layout */
+.main-content {
+    padding: 1em;
+}
+
+input {
+    padding: .5em 2em;
+    margin-bottom: 1em;
+    border: 2px solid rgb(163, 163, 163);
+    border-radius: 5px;
+    text-align: center;
+    font-family: inherit;
+}
+
+.register-btn {
+    width: 200px;
+    background-color: #f18119;
+    color: white;
+    border: 0;
+    padding: .75em 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    col
+}
+
