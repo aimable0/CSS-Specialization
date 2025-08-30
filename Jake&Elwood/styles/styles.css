@@ -71,7 +71,7 @@ nav li {
 .hero-btn {
     background-color: var(--yellow);
     display: inline-block;
-    margin-top: 1em;
+    margin-bottom: 3em;
 }
 
 .hero-title span {
@@ -81,8 +81,14 @@ nav li {
 .hero-subtitle {
     font-size: 18px;
     line-height: 25px;
-    /* padding-right: 30px; */
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
+.hero-title {
+    line-height: 1.2;
+}
+
 
 /* logo */
 .logo {
@@ -138,6 +144,9 @@ header {
     color: white;
 }
 
+.header-grid {
+    grid-column: 2 / -2;
+}
 
 
 .nav-links {
@@ -161,11 +170,11 @@ header {
 /* background */
 .hero {
     background-image: url("../cdPZKehr/img/hero-bg.jpg");
-    background-position: center;
+    background-position: 60%;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    height: 610px;
+    height: 710px;
 }
 
 .hero-div {
@@ -183,9 +192,8 @@ header {
     padding-right: 7em;
 }
 
-.hero-title {
-    margin-top: 4em;
-}
+
+
 
 
 /* middle section */
@@ -200,6 +208,8 @@ header {
 .logo.footer-logo {
     color: var(--grey);
     background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 
@@ -211,6 +221,7 @@ footer {
     align-items: center;
     flex-direction: column;
     text-align: left;
+    padding: 1px;
 }
 
 footer div p {
@@ -230,6 +241,7 @@ footer .grid div {
 
 .hero-div > * {
     grid-column: 2 / -2;
+    margin: 0;
 }
 
 .col {
@@ -241,11 +253,43 @@ footer .grid div {
     grid-column: 2 / -2;
     opacity: .5;
     text-align: center;
+    margin: 0;
 }
 
+
+.logo.footer-logo {
+    color: rgb(75, 84, 75);
+    height: min-content;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 15px;
+    padding-bottom: 50px;
+}
 .footer-p-text {
-    padding: 0px 1.5em;
+    text-align: center;
+    padding-bottom: 15px;
 }
 
+.social-icons {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    order: -1;
+    font-size: 25px;
+    color: black;
+    margin-left: 0px;
+    padding-left: 0;
+}
 
+.social-icons li {
+    margin: 15px 15px 0px 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
+.social-link {
+    color: black;
+}
